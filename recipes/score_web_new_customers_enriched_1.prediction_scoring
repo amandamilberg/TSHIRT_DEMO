@@ -1,8 +1,0 @@
-{
-  "keptInputColumns": [],
-  "filterInputColumns": false,
-  "outputProbabilities": true,
-  "forcedClassifierThreshold": 0,
-  "overrideModelSpecifiedThreshold": false,
-  "sparkParams": {}
-}
