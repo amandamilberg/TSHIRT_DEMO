@@ -1,7 +1,32 @@
 {
   "name": "CRM",
   "color": "#31439C",
-  "items": [],
+  "items": [
+    {
+      "objectId": "crm_history",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "web_history",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_crm_history_shaked",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "crm_and_web_history_enriched",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_web_history_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "web_history_prepared",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
