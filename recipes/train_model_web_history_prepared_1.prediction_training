@@ -1,0 +1,517 @@
+{
+  "core": {
+    "target_variable": "revenue",
+    "prediction_type": "REGRESSION"
+  },
+  "operationMode": "TRAIN_SPLITTED_ONLY",
+  "generatingModelId": "A-DKU_TSHIRTS-gPd2KlKo-60zKZeke-s7-pp1-m1",
+  "modeling": {
+    "xgboost_nthread": 0,
+    "learn_rate": 0.1,
+    "max_depth": 5,
+    "mllib_linreg_max_iter": 10,
+    "mllib_rf_subsampling_rate": 1.0,
+    "mllib_dt_max_memory_mb": 256,
+    "xgboost_base_score": 0.0,
+    "adaptive_rate": 1,
+    "epsilon": 1.0E-6,
+    "mllib_dt_min_instance_per_node": 1,
+    "lambda": 1.0E-5,
+    "mllib_gbt_max_memory_mb": 256,
+    "mllib_dt_max_depth": 5,
+    "mllib_dt_max_bins": 32,
+    "gbt_learning_rate": 0.0,
+    "algorithm": "RANDOM_FOREST_REGRESSION",
+    "mllib_dt_cache_node_ids": false,
+    "mllib_dt_min_info_gain": 0.0,
+    "xgboost_early_stopping_rounds": 0,
+    "dtc_max_depth": 0,
+    "l1_ratio": 0.0,
+    "mllib_rf_subset_strategy": "auto",
+    "mllib_rf_num_trees": 20,
+    "mllib_gbt_max_bins": 32,
+    "tweedie_variance_power": 0.0,
+    "mllib_rf_impurity": "gini",
+    "xgboost_seed": 0,
+    "vertica_reg_epsilon": 0.0,
+    "metrics": {
+      "customEvaluationMetricGIB": true,
+      "costMatrixWeights": {
+        "fpGain": -0.3,
+        "tpGain": 1.0,
+        "fnGain": 0.0,
+        "tnGain": 0.0
+      },
+      "liftPoint": 0.4,
+      "evaluationMetric": "R2",
+      "customEvaluationMetricNeedsProba": false
+    },
+    "C": 0.0,
+    "input_dropout_ratio": 0.0,
+    "l1": 0.0,
+    "l2": 0.0,
+    "mllib_logit_reg_param": 0.1,
+    "xgboost_scale_pos_weight": 0.0,
+    "grid_search_params": {
+      "mode": "KFOLD",
+      "cvSeed": 1337,
+      "nJobs": -1,
+      "nFolds": 3,
+      "stratified": true,
+      "shuffleIterations": 1,
+      "splitRatio": 0.8
+    },
+    "tol": 0.0,
+    "xgboost_colsample_bylevel": 0.0,
+    "mllib_rf_min_info_gain": 0.0,
+    "mllib_gbt_num_trees": 50,
+    "gbt_n_estimators": 0,
+    "mllib_rf_min_instance_per_node": 1,
+    "mllib_logit_max_iter": 10,
+    "n_folds": 0,
+    "rf_max_feature_prop": 0.0,
+    "mllib_rf_cache_node_ids": false,
+    "max_iter": 0,
+    "knn_leaf_size": 0,
+    "beta_epsilon": 1.0E-4,
+    "rf_estimators": 0,
+    "coef0": 0.0,
+    "xgboost_alpha": 0.0,
+    "xgboost_n_estimators": 0,
+    "mllib_naive_bayes_lambda": 1.0,
+    "xgboost_max_delta_step": 0.0,
+    "xgboost_min_child_weight": 0.0,
+    "mllib_gbt_step_size": 0.1,
+    "rf_min_samples_leaf": 0,
+    "sample_rate": 0.6666,
+    "max_ensemble_nodes_serialized": 6000,
+    "mllib_dt_checkpoint_interval": 10,
+    "gamma": 0.0,
+    "knn_k": 0,
+    "dtc_min_samples_leaf": 0,
+    "mllib_gbt_subsampling_rate": 1.0,
+    "mllib_gbt_seed": 0,
+    "nbins": 20,
+    "xgboost_missing": 0.0,
+    "mllib_rf_max_depth": 5,
+    "mllib_logit_enet_param": 0.0,
+    "vertica_reg_iterations": 0,
+    "knn_p": 0,
+    "gbt_min_samples_leaf": 0,
+    "mllib_gbt_checkpoint_interval": 10,
+    "computeLearningCurves": false,
+    "xgboost_max_depth": 0,
+    "forcedClassifierThreshold": 0.0,
+    "rf_max_features": 0,
+    "rf_njobs": 0,
+    "n_jobs": 0,
+    "gbt_max_features": 0,
+    "rf_max_tree_depth": 0,
+    "ntrees": 50,
+    "gbt_max_depth": 0,
+    "mllib_linreg_reg_param": 0.1,
+    "xgboost_impute_missing": false,
+    "xgboost_enable_early_stopping": false,
+    "xgboost_learning_rate": 0.0,
+    "knn_distance_weighting": false,
+    "mllib_gbt_min_info_gain": 0.0,
+    "mllib_gbt_max_depth": 5,
+    "mtries": -1,
+    "min_rows": 10,
+    "rate": 0.0,
+    "mllib_linreg_enet_param": 0.0,
+    "alpha": 0.0,
+    "xgboost_gamma": 0.0,
+    "rf_regressor_grid": {
+      "max_feature_prop": {
+        "values": [
+          0.3
+        ],
+        "randomMode": "RANGE",
+        "limit": {
+          "min": 1.0E-23,
+          "max": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.1,
+          "max": 0.7,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "max_features": {
+        "values": [
+          0
+        ],
+        "randomMode": "RANGE",
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 1,
+          "max": 20,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "n_jobs": 1,
+      "n_estimators": {
+        "values": [
+          100
+        ],
+        "randomMode": "RANGE",
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 80,
+          "max": 200,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "selection_mode": "auto",
+      "enabled": true,
+      "min_samples_leaf": {
+        "values": [
+          17
+        ],
+        "randomMode": "RANGE",
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 3,
+          "max": 20,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "max_tree_depth": {
+        "values": [
+          23
+        ],
+        "randomMode": "RANGE",
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 5,
+          "max": 10,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      }
+    },
+    "mllib_rf_checkpoint_interval": 10,
+    "xgboost_colsample_bytree": 0.0,
+    "standardize": 1,
+    "mllib_gbt_impurity": "gini",
+    "autoOptimizeThreshold": true,
+    "gbt_max_feature_prop": 0.0,
+    "xgboost_lambda": 0.0,
+    "mllib_rf_max_memory_mb": 256,
+    "mllib_gbt_min_instance_per_node": 1,
+    "mllib_gbt_cache_node_ids": false,
+    "xgboost_subsample": 0.0,
+    "rate_annealing": 0.0,
+    "rho": 0.95,
+    "mllib_rf_max_bins": 32,
+    "family": "gaussian",
+    "xgboost_silent": false,
+    "mllib_rf_seed": 0
+  },
+  "preprocessing": {
+    "reduce": {
+      "kept_variance": 0.0,
+      "enabled": false
+    },
+    "featureSelection": {
+      "kind": "NONE",
+      "filterOnlyKBestNbToKeep": 10
+    },
+    "target_remapping": [],
+    "per_feature": {
+      "pages_visited": {
+        "rescaling": "AVGSTD",
+        "missing_impute_with": "MEAN",
+        "role": "INPUT",
+        "binarize_constant_threshold": 0.0,
+        "type": "NUMERIC",
+        "binarize_threshold_mode": "MEDIAN",
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "missing_handling": "IMPUTE",
+        "numerical_handling": "REGULAR",
+        "name": "pages_visited",
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "DoubleMeaning",
+          "userModified": false
+        },
+        "impute_constant_value": 0.0
+      },
+      "revenue": {
+        "role": "TARGET",
+        "quantile_bin_nb_bins": 4,
+        "generate_derivative": false,
+        "name": "revenue",
+        "binarize_constant_threshold": 0.0,
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "LongMeaning",
+          "userModified": false
+        },
+        "type": "NUMERIC",
+        "impute_constant_value": 0.0,
+        "binarize_threshold_mode": "MEDIAN"
+      },
+      "campain": {
+        "min_samples": 10,
+        "role": "INPUT",
+        "missing_impute_with": "MODE",
+        "dummy_drop": "NONE",
+        "dummy_clip": "MAX_NB_CATEGORIES",
+        "cumulative_proportion": 0.95,
+        "type": "CATEGORY",
+        "missing_handling": "IMPUTE",
+        "category_handling": "DUMMIFY",
+        "name": "campain",
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "Boolean",
+          "userModified": false
+        },
+        "hash_whole_categories": false,
+        "max_nb_categories": 100,
+        "max_cat_safety": 200
+      },
+      "ip": {
+        "min_samples": 10,
+        "missing_impute_with": "MODE",
+        "role": "REJECT",
+        "dummy_drop": "NONE",
+        "dummy_clip": "MAX_NB_CATEGORIES",
+        "cumulative_proportion": 0.95,
+        "type": "CATEGORY",
+        "autoReason": "REJECT_IDENTIFIER",
+        "missing_handling": "IMPUTE",
+        "category_handling": "DUMMIFY",
+        "name": "ip",
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "IPAddress",
+          "userModified": false
+        },
+        "hash_whole_categories": false,
+        "max_nb_categories": 100,
+        "max_cat_safety": 200
+      },
+      "ip_country": {
+        "min_samples": 10,
+        "role": "INPUT",
+        "missing_impute_with": "MODE",
+        "dummy_drop": "NONE",
+        "dummy_clip": "MAX_NB_CATEGORIES",
+        "cumulative_proportion": 0.95,
+        "type": "CATEGORY",
+        "missing_handling": "IMPUTE",
+        "category_handling": "DUMMIFY",
+        "name": "ip_country",
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "CountryMeaning",
+          "userModified": false
+        },
+        "hash_whole_categories": false,
+        "max_nb_categories": 100,
+        "max_cat_safety": 200
+      },
+      "customer_id": {
+        "min_samples": 10,
+        "role": "REJECT",
+        "missing_impute_with": "MODE",
+        "dummy_drop": "NONE",
+        "dummy_clip": "MAX_NB_CATEGORIES",
+        "cumulative_proportion": 0.95,
+        "type": "CATEGORY",
+        "missing_handling": "IMPUTE",
+        "category_handling": "DUMMIFY",
+        "name": "customer_id",
+        "state": {
+          "dssWantsToModify": false,
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "Text",
+          "userModified": true
+        },
+        "hash_whole_categories": false,
+        "max_nb_categories": 100,
+        "max_cat_safety": 200
+      }
+    },
+    "feature_generation": {
+      "polynomial_combinations": {
+        "behavior": "DISABLED"
+      },
+      "manual_interactions": {
+        "interactions": []
+      },
+      "pairwise_linear": {
+        "behavior": "DISABLED"
+      }
+    },
+    "deduplication": {
+      "enabled": false
+    },
+    "numerical_combinations": {
+      "polynomialInteraction": false,
+      "pairwiseLinear": false
+    }
+  },
+  "backendType": "PY_MEMORY",
+  "expectedPreparationOutputSchema": {
+    "columns": [
+      {
+        "timestampNoTzAsDate": false,
+        "name": "customer_id",
+        "type": "string",
+        "maxLength": -1
+      },
+      {
+        "timestampNoTzAsDate": false,
+        "name": "ip",
+        "type": "string",
+        "maxLength": -1
+      },
+      {
+        "timestampNoTzAsDate": false,
+        "name": "ip_country",
+        "type": "string",
+        "maxLength": -1
+      },
+      {
+        "timestampNoTzAsDate": false,
+        "name": "pages_visited",
+        "type": "double",
+        "maxLength": -1
+      },
+      {
+        "timestampNoTzAsDate": false,
+        "name": "campain",
+        "type": "boolean",
+        "maxLength": -1
+      },
+      {
+        "timestampNoTzAsDate": false,
+        "name": "revenue",
+        "type": "bigint",
+        "maxLength": -1
+      }
+    ],
+    "userModified": false
+  },
+  "splitParams": {
+    "instanceIdRefresher": 3,
+    "ssdSeed": 1337,
+    "nFolds": 5,
+    "subSamplingSeed": 1337,
+    "splitBeforePrepare": true,
+    "ssdSplitMode": "RANDOM",
+    "ssdSelection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "useMemTable": false,
+      "latestPartitionsN": 1,
+      "maxRecords": 100000,
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "ssdTrainingRatio": 0.8,
+    "kfold": false,
+    "ttPolicy": "SPLIT_SINGLE_DATASET"
+  },
+  "script": {
+    "contextProjectKey": "DKU_TSHIRTS",
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "explorationSampling": {
+      "_refreshTrigger": 2,
+      "selection": {
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "latestPartitionsN": 1,
+        "maxRecords": 30000,
+        "withinFirstN": -1,
+        "partitionSelectionMethod": "ALL",
+        "maxStoredBytes": -1,
+        "targetRatio": 0.02,
+        "maxReadUncompressedBytes": -1,
+        "samplingMethod": "HEAD_SEQUENTIAL"
+      },
+      "autoRefreshSample": false
+    },
+    "explorationFilters": [],
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "maxProcessedMemTableBytes": -1,
+    "steps": [
+      {
+        "preview": false,
+        "metaType": "PROCESSOR",
+        "disabled": false,
+        "params": {
+          "extract_country": true,
+          "inCol": "ip",
+          "extract_countrycode3": false,
+          "extract_city": false,
+          "extract_latlng": false,
+          "extract_postalcode": false,
+          "extract_countrycode": false,
+          "extract_timezone": false,
+          "outColPrefix": "ip_",
+          "extract_continentcode": false,
+          "extract_geopoint": false,
+          "extract_region": false
+        },
+        "type": "GeoIPResolver",
+        "alwaysShowComment": false
+      }
+    ],
+    "previewMode": "ALL_ROWS",
+    "vizSampling": {
+      "_refreshTrigger": 0,
+      "autoRefreshSample": false
+    },
+    "analysisColumnData": {},
+    "sorting": [],
+    "globalSearchQuery": "",
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    }
+  },
+  "sparkParams": {
+    "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+    "sparkRepartitionNonHDFS": 1
+  }
+}
